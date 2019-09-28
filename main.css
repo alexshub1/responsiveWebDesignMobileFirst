@@ -9,14 +9,6 @@
     margin: 10px 0;
 }
 
-/* styles for desktop */
-@media (min-width: 992px) {
-    /* overwrites bg color on 18th line */
-    .column {
-        background-color: #0997d3; /* blue */
-    }
-}
-
 /* styles for tablet */
 @media (min-width: 768px) {
     .column {
@@ -24,5 +16,13 @@
         margin: 10px;
         width: 30%;
         background-color: #e84610; /* red */
+    }
+}
+
+/* styles for desktop */
+@media (min-width: 992px) {
+    /* overwrites bg color on 18th line */
+    .column {
+        background-color: #0997d3; /* blue */
     }
 }
